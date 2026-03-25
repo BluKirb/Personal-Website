@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style3.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Columns in a Row</title>
+  <style>
+    /* The container that holds all 3 columns */
+    .row {
+      display: flex;              /* makes children line up horizontally */
+      justify-content: space-between; /* optional spacing between columns */
+      align-items: stretch;       /* make all columns equal height */
+    }
+
+    /* Each column box */
+    .column {
+      flex: 1;                    /* equal width columns */
+      margin: 5px;
+      margin-top: 80px;
+      margin-left: 20px;     /* small space around each column */
+      background-color: #DAEEDB;
+      padding: 20px;
+      text-align: ;
+      font-size: 18px;
+      border: 0px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+	<div class="wrapper"> 
+	<h1> My Favorites</h1> 
+<p> Here is a list of my favorite things.</p> 
+
+  <div class="row">
+    <div class="column"><h2>Favorite food is</h2>
+    <img src="images/alfredo.jpg"></div>
+
+    <div class="column"><h2>Favorite zoo animal is</h2>
+    <img src="images/penquin.jpg"></div>
+
+    <div class="column"><h2>Favorite Color is</h2>
+    	<img src="images/green.jpg"></div>
+  </div>
+  <div class="footer"> <p>Some of my favorite things:</p>
+  <ul>
+  <li>Chicken Alfredo because I love pasta</li>
+  <li>Penquins because they're cute and I don't get to see them often</li>
+  <li>Green because I like cool color tones and the shades green can provide</li>
+  </ul> </div>
+</div>
+</body>
+</html>

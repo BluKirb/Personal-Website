@@ -1,0 +1,110 @@
+body {
+	background-color:#E06D6A;
+	margin: opx;
+}
+
+.centercontent {
+	height:100%;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.header {
+	height: 300px;
+	width: 100%;
+	background-color: #723332;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.mainarea {
+	height: 575px;
+	width: 100%;
+	background-color: #F8B9B8;
+}
+
+.footer {
+	height: 500px;
+	width: 300px;
+}
+
+.threecol {
+	height: 400px;
+	width: 300px;
+	margin-left: 16px;
+	margin-right: 16px;
+	float: left;
+	text-align: center;
+	font-family: "DM Serif Display", serif;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.twocol {
+	height: 250px;
+	width: 375px;
+	margin-left: 110px;
+	float: left;
+	font-family:"Arvo", serif; 
+	font-weight: 300px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+h1 {
+	font-size: 65px;
+	padding-top: 25px;
+	font-family: "Arvo", serif;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	padding-top: 25px;
+	font-family: "Arvo", serif;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 20px;
+	margin-top: -35px;
+	font-family: "Avro", serif;
+	font-weight: 300;
+	color: #CA8D8D;
+	letter-spacing: 3px;
+}
+
+h4 {
+	font-size: 20px;
+	margin-top: 50px;
+	font-family: "Avro", serif;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+.headshot {
+    width: 200px;          
+    height: 200px;          
+    margin: 0 auto; 
+    margin-top: 30px;
+    margin-left: 20px;
+    background-image: url("images/me.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;     
+}
+
+
+img {
+    display: block;
+    margin: 0 auto 40px; 
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+

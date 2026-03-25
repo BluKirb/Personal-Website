@@ -1,0 +1,49 @@
+body {
+  background-image: url(images/wolf.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  color: white;
+height: 90px;
+width: 380px;
+text-align: center;
+margin-left: 50px;
+margin-top: 20px;
+background: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+font-family: "Edu NSW ACT Cursive", cursive;
+font-optical-sizing: auto;
+  font-weight: <20>;
+  font-style: cursive;
+  color: white;
+  height: 230px;
+  width: 600px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 200px;
+  background: rgba(0, 0, 0, 0.5);
+} 
+
+.header {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <50>;
+  font-style: normal;
+}
+
+.edu-nsw-act-cursive-<uniquifier> {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

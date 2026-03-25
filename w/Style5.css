@@ -1,0 +1,191 @@
+
+body {
+    background-color: ##004B42;
+    margin: 0;
+    font-family: "DM Serif Display", serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto 40px;
+    height: 150px;
+    width: 150px;
+}
+
+
+.header-box {
+    display: inline-block;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+ 
+.centercontent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 300px;
+    width: 100%;
+    background-image: url("images/cat.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    font-size: 110px;
+    padding: 0;
+    margin: 0;
+    line-height: 0.95; 
+    font-family: "Arvo", serif;
+    color: #00383A;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 5px 0 0 0; 
+    font-family: "Arvo", serif;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 5px;
+}
+
+
+.mainarea {
+    width: 100%;
+    background-color: #E5F4F2;
+    padding: 40px 0;
+}
+
+.threecol {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 140px;   
+}
+
+
+.threecol img {
+    border-radius: 0;     
+    width: 500px;          
+    height: auto;          
+    display: block;
+    margin: 20px auto 0;   
+}
+
+
+.threecol img {
+    margin-bottom: 20px;
+}
+
+.threecol h2 {
+    margin-bottom: 40px; 
+}
+
+
+h2 {
+    font-size: 2em;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #004B42;
+    padding: 40px 0;
+    color: white;
+}
+
+.twocol {
+    width: 375px;
+    float: left;
+    margin-left: 110px;
+    font-family: "Arvo", serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+}
+
+h4 {
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: "Arvo", serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('images/4ha2.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;  
+}
+
+
+.video-frame {
+    width: 800px;              
+    height: 450px;              
+    display: block;
+    margin: 20px auto;          
+}
+
+
+
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;          
+    flex-wrap: wrap;    
+}
+
+.gallery-row img {
+    width: 400px;     
+    height: auto;
+    border-radius: 0;
+    display: block;
+}
+
+.gallery-row img:nth-child(1),
+.gallery-row img:nth-child(2) {
+    margin-top: 40px;   
+}
+
+.location-img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 40px auto 20px; 
+}
+
+ 
+a {
+    color: white;           
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #E5F4F2;             
+}

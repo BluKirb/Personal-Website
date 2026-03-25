@@ -1,0 +1,25 @@
+body{
+	background-color: #DAEEDB;
+}
+.wrapper {
+height: 900px;
+width: 1000px;
+background-color: #DAEEDB;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+} 
+
+.column {
+	margin-top: 80px;
+}
+
+.footer {
+height: 200px;
+width: 1000px;
+background-color: #DAEEDB;
+clear: both;
+margin-top: px;
+margin-right: 900px;
+}
